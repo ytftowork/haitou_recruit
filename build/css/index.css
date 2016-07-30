@@ -6,32 +6,31 @@
 }
 html,body{
     width: 100%;
-    height: 100%;
     position: relative;
-
     background: url("../../image/point-bg.png");
 }
 .content{
     width: 100%;
     height: 100%;
 }
-.page-1,.page-2,.page-3,.page-4{
+.page-1,.page-2,.page-3{
     width: 98%;
-    height: 100%;
     margin: 0 auto;
+    margin-top: 0vh;
 }
 .page-1 .content-1{
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 2vh;
 }
 
 .page-1{
     text-align: center;
+    text-align: -webkit-center;
+
     position: relative;
 }
 .page-1 img{
-    margin: 10px 0 auto;
-
+    margin: 1vh 0 auto;
 }
 .page-1 .hai-tou{
     width: 60%;
@@ -64,7 +63,7 @@ html,body{
 }
 .page-1 .point{
     width: 6.6%;
-    margin-top: 2vh;
+    margin-top: 3vh;
 }
 .page1-p-div1 p{
     margin-top: 1.2vh;
@@ -73,7 +72,6 @@ html,body{
     margin-top: 1vh;
 }
 .page1-p2{
-    /* width: 100%; */
     font-size: 3.5vh;
 }
 .page1-p3{
@@ -81,14 +79,14 @@ html,body{
 }
 
 .page1-p-div2 p{
-    margin-top: 2.2vh;
-    width: 97%;
-    /* word-spacing: 5px; */
+    margin: 2.2vh 0 auto;
 }
 .page-1 .logo-point{
     width: 100%;
     height: auto;
     text-align: center;
+    text-align: -webkit-center;
+
 }
 
 .page-1 .point-four{
@@ -98,17 +96,308 @@ html,body{
 .page-1 .logo{
     display: block;
 }
-
-
 .enroll{
     font-family: sans-serif;
     font-size: 18px;
-
 }
+
 .page-2{
+    height: 235vh;
+    margin-top: -4.7vh;
+    padding-top: 5.7vh;
+    background-color: #6daaff;
+    letter-spacing: 0.3px;
+}
+.page-2 .city{
+    background-color: #6daaff;
+    width: 90%;
+    padding-left: 10%;
+    padding-top: 4vh;
+}
+.page-2 .position{
+    display: block;
+    float: left;
+    height: 10vh;
+}
+.page-2 .select-city{
+    float: left;
+    margin-left: 2vh;
+}
+.select-city p{
+    color: #ffffff;
+    padding-left: 3vh;
+    padding-bottom: 1vh;
+}
+.select-city select{
+    width: 37vh;
+    height: 6vh;
+    padding-left: 2vh;
+    padding-bottom: 0.5vh;
+    font-size: 3vh;
+    color: #6daaff;
+    border-radius: 3vh;
+}
+.city-option option{
+    width: 100%;
+    border-radius: 10vh;
+}
+.profile-div{
+    width: 100%;
+    height: 10vh;
+    padding-top: 17vh;
+}
+.profile{
+    width: 7vh;
+    margin: 0px auto;
+    margin-left: 24vh;
+}
+.page-2 .station{
+    color: #ffffff;
+    padding-left: 2vh;
+    margin-top: 2vh;
+    margin-left: 8%;
+    font-size: 3vh;
+    border-left: 4px solid #3388ff;
+}
+.page-2 .shi-xi{
+    width: 100%;
+    padding-top: 1vh;
+    text-align: center;
+    text-align: -webkit-center;
 
+    color: #024db6;
+    font-size: 2vh;
 }
+.page-2 .require-div{
+    margin-left: 8%;
+    color: #fff;
+    padding-top: 1vh;
+    font-size: 2.2vh;
+    overflow: auto;
+    letter-spacing: 0.1vh;
+    /* height: 0vh; */
+}
+.page-2 .require-div1{
+    padding-top: 2vh;
+}
+.page-2 .describe-span{
+    float: left;
+}
+.page-2 .describe-p{
+    float: left;
+    color: #e6efff;
+}
+.page-2 .requireP12{
+    margin-left: 11.5vh;
+    padding-top: 0.5vh;
+}
+.page-2 .requireP13{
+    margin-left: 14.3vh;
+    padding-top: 0.5vh;
+}
+.page-2 .enlist1-div{
+    /* overflow: auto; */
+    padding-top: 12vh;
+    text-align: center;
+    text-align: -webkit-center;
+}
+.enlist1-div .enlist{
+    width: 100%;
+    height: 0.8vh;
+    background-color: #5ca0ff;
+}
+.enlist1-div .enroll-btn{
+    width: 37vh;
+    height: 8vh;
+    line-height: 7.6vh;
+    display: block;
+    border-radius: 4vh;
+    color: #207dff;
+    font-size: 4vh;
+    margin-top: -4.5vh;
+    background-color: #fff;
+}
+.enlist1-div .disable-btn{
+    background-color: #cacaca;
+    color: #ffffff;
+}
+/*网宣岗*/
+.page-2 .profile-div2{
+    padding-top: 8vh;
+}
+.page-2 .station2{
+    margin-left: 14%;
+}
+.page-2 .describe-p2{
+    width: 74.5%;
+    padding-right: 1%;
+    line-height: 3.2vh;
+}
+/*报名页*/
 .page-3{
+    /* width: 56vh; */
+    height: 145vh;
+    background-color: #6daaff;
 }
-.page-4{
+.page-3 .form-title-div{
+    width: 100%;
+    text-align: center;
+    text-align: -webkit-center;
+    overflow: auto;
+    padding-top: 5vh;
+}
+.page-3 .form-title-p{
+    color: #fff;
+    font-size: 3.5vh;
+    width: 12vh;
+    border-left: 3px solid #3388ff;
+    padding-left: 1vh;
+}
+.page-3 .form-data{
+    width: 56vh;
+    overflow: auto;
+    padding-top: 4vh;
+    margin: 0 auto;
+}
+.page-3 .form-data .row{
+
+width: 47vh;
+
+margin: 0 auto;
+
+margin-top: 5vh;
+
+/* float: none; */
+
+/* overflow: visible; */
+}
+.page-3 .form-data .row-label{
+
+    color: #fff;
+
+    font-size: 3.5vh;
+
+    /* display: inline; */
+}
+.page-3 .form-data .row-data{
+    width: 36vh;
+    height: 6vh;
+    margin-left: 2vh;
+    padding-left: 2vh;
+    font-size: 3vh;
+    color: #3185fb;
+    border-radius: 4vh;
+    line-height: 3.5vh;
+}
+.page-3 .form-data .row-input{
+    float: right;
+    width: 36vh;
+    /* margin-left: 2vh; */
+}
+.row-input input{
+    width: 36.4vh;
+    height: 6vh;
+    border-radius: 4.1vh;
+    line-height: vh;
+    margin-left: -1.5vh;
+    margin-top: -0.7vh;
+    border: none;
+    /* display: block; */
+}
+
+.page-3 .row .person-picture{
+    width: 37vh;
+    height: 21vh;
+    border-radius: 1.5vh;
+    float: right;
+    background-color: #fff;
+}
+.person-picture .picture-logo{
+
+    margin: 0 auto;
+
+    /* width: 100%; */
+
+    padding-top: 3vh;
+
+    text-align: center;
+
+    text-align: -webkit-center;
+}
+.person-picture .person-logo{
+
+    width: 9vh;
+
+    margin-left: 3vh;
+}
+
+.person-picture .picture-p{
+    font-size: 2vh;
+    margin: 0 auto;
+    text-align: center;
+    text-align: -webkit-center;
+    padding-top: 3vh;
+    color: #e4e4e4;
+}
+.row .remark{
+width: 37vh;
+float: right;
+overflow: auto;
+padding-top: 3vh;
+font-size: 1.2vh;
+color: #fff;
+line-height: 2.8vh;
+}
+.page-3 .submit{
+    
+margin-top: 15vh;
+    
+/* text-align: center; */
+}
+.page-3 .submit-div{
+    
+width: 100%;
+    
+height: 0.8vh;
+    
+background-color: #5ca0ff;
+}
+.page-3 .submit-btn{
+    width: 37vh;
+    height: 8vh;
+    line-height: 7.6vh;
+    display: block;
+    border-radius: 4vh;
+    color: #fff;
+    font-size: 4vh;
+    text-align: center;
+    text-align: -webkit-center;
+    margin: 0 auto;
+    margin-top: -4.5vh;
+    background-color: #ffad7c;
+}
+.page-3 .copyright{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    text-align: -webkit-center;
+    padding-top: 6vh;
+    color: #033d8f;
+    font-size: 1vh;
+}
+select{
+    /*Chrome和Firefox里面的边框是不一样的，所以复写了一下*/
+    border: solid 2px #fff;
+
+    /*很关键：将默认的select选择框样式清除*/
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+
+    /*在选择框的最右侧中间显示小箭头图片*/
+    background: url("../../image/down-arrow.png") no-repeat scroll 90% #fff;
+
+
+    /*为下拉小箭头留出一点位置，避免被文字覆盖*/
+    padding-right: 14px;
 }
